@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(0)
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 smileCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_smile.xml")
 while True:
